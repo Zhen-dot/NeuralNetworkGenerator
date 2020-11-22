@@ -109,12 +109,11 @@ def test(x_train, x_test, y_train, y_test, path):
     in_size = len(x_train[0])
     ou_size = len(np.unique(y_train))
 
-    nmin = int(in_size * 2 / 3) + ou_size
-    nmax = in_size * 2
+    nmin = min(int(in_size * 2 / 3) + ou_size, ou_size)
 
     configs = []
     for i in range(1, 5):
-        for j in range(nmin // i, nmax // i):
+        for j in range(nmin // i, in_size // i):
             configs.append(train(tuple(j for _ in range(i)), x_train, x_test, y_train, y_test, save=path))
             print({k: configs[-1][k] for k in configs[-1] if k != 'mlp'})
 
