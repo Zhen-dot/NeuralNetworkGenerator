@@ -8,6 +8,7 @@ import csv
 import os
 
 
+# Loads data from path as list of strings
 def load_data(path):
     li = []
     with open(path) as f:
@@ -17,6 +18,7 @@ def load_data(path):
     return li
 
 
+# Loads the UCI MLR Optical Recognition of Handwritten Digits Data Set from the data folder
 def load_digits():
     tra = load_data('data/optdigits.tra')
     tra = {'data': np.asarray([x[:-1] for x in tra]).astype(np.float),
@@ -28,6 +30,7 @@ def load_digits():
     return tra, tes
 
 
+# Loads the NN Classifier from the given path and describes it
 def load_mlp(path, tra, tes):
     scaler = StandardScaler()
 
@@ -51,6 +54,7 @@ def load_mlp(path, tra, tes):
     return mlp
 
 
+# Visualise the NN
 def visualise(mlp, title, ax):
     plt.axis('off')
     # get number of neurons in each layer
@@ -80,6 +84,7 @@ def visualise(mlp, title, ax):
                         linewidth=(w - weight_range[0]) / ((weight_range[1] - weight_range[0]) * 4) + 0.01)
 
 
+# Trains a NN with the given parameters
 def train(layer, x_train, x_test, y_train, y_test, **kwargs):
     fig = plt.figure()
 
@@ -119,6 +124,7 @@ def train(layer, x_train, x_test, y_train, y_test, **kwargs):
     return {'mlp': mlp, 'layer': layer, 'score': score, 'iters': mlp.n_iter_}
 
 
+# Tests an array of different NN topologies and saves the best performing NN
 def test(x_train, x_test, y_train, y_test, path):
     if path and not os.path.exists(path):
         os.makedirs(path)
