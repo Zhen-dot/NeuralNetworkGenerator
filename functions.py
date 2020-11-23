@@ -28,6 +28,29 @@ def load_digits():
     return tra, tes
 
 
+def load_mlp(path, tra, tes):
+    scaler = StandardScaler()
+
+    scaler.fit(tra['data'])
+    tes['data'] = scaler.transform(tes['data'])
+
+    fig = plt.figure()
+    mlp = pickle.load(open(path, 'rb'))
+    visualise(mlp, "Neural Network", fig.add_subplot())
+
+    predictions = mlp.predict(tes['data'])
+    print(confusion_matrix(tes['target'], predictions))
+    print(classification_report(tes['target'], predictions))
+    print(f'n iter {mlp.n_iter_}')
+    print(f'coefs {mlp.coefs_}')
+    print(f'intercepts {mlp.intercepts_}')
+
+    np.savetxt("foo.csv", confusion_matrix(tes['target'], predictions), delimiter=",")
+
+    plt.show()
+    return mlp
+
+
 def visualise(mlp, title, ax):
     plt.axis('off')
     # get number of neurons in each layer
@@ -48,7 +71,7 @@ def visualise(mlp, title, ax):
     ax.set_title(title, fontsize='x-small')
     # draw the neurons
     ax.scatter(x_neurons, y_neurons, s=5, zorder=5)
-    # draw the connections with line width corresponds to the weight of the connection
+    # draw the connections with line width corresponding to the weight of the connection
     for l, layer in enumerate(mlp.coefs_):
         for i, neuron in enumerate(layer):
             for j, w in enumerate(neuron):

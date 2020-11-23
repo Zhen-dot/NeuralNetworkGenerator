@@ -8,4 +8,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
 tra, tes = load_digits()
-test(tra['data'], tes['data'], tra['target'], tes['target'], 'results')
+# test(tra['data'], tes['data'], tra['target'], tes['target'], 'results')
+
+
+mlp = load_mlp('results/(29,).p', tra, tes)

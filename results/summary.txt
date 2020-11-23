@@ -1,0 +1,115 @@
+{'layer': (10,), 'score': '0.9393', 'iters': 355}
+{'layer': (11,), 'score': '0.9538', 'iters': 408}
+{'layer': (12,), 'score': '0.9477', 'iters': 330}
+{'layer': (13,), 'score': '0.9499', 'iters': 268}
+{'layer': (14,), 'score': '0.9544', 'iters': 276}
+{'layer': (15,), 'score': '0.9622', 'iters': 248}
+{'layer': (16,), 'score': '0.9549', 'iters': 260}
+{'layer': (17,), 'score': '0.9588', 'iters': 256}
+{'layer': (18,), 'score': '0.9644', 'iters': 249}
+{'layer': (19,), 'score': '0.9605', 'iters': 218}
+{'layer': (20,), 'score': '0.9588', 'iters': 225}
+{'layer': (21,), 'score': '0.9549', 'iters': 216}
+{'layer': (22,), 'score': '0.9549', 'iters': 215}
+{'layer': (23,), 'score': '0.9599', 'iters': 217}
+{'layer': (24,), 'score': '0.9594', 'iters': 203}
+{'layer': (25,), 'score': '0.9683', 'iters': 186}
+{'layer': (26,), 'score': '0.9588', 'iters': 204}
+{'layer': (27,), 'score': '0.9566', 'iters': 203}
+{'layer': (28,), 'score': '0.9627', 'iters': 187}
+{'layer': (29,), 'score': '0.9705', 'iters': 184}
+{'layer': (30,), 'score': '0.9638', 'iters': 168}
+{'layer': (31,), 'score': '0.9644', 'iters': 188}
+{'layer': (32,), 'score': '0.9661', 'iters': 186}
+{'layer': (33,), 'score': '0.9649', 'iters': 168}
+{'layer': (34,), 'score': '0.9616', 'iters': 181}
+{'layer': (35,), 'score': '0.9616', 'iters': 166}
+{'layer': (36,), 'score': '0.9672', 'iters': 156}
+{'layer': (37,), 'score': '0.9633', 'iters': 182}
+{'layer': (38,), 'score': '0.9655', 'iters': 177}
+{'layer': (39,), 'score': '0.9655', 'iters': 148}
+{'layer': (40,), 'score': '0.9610', 'iters': 164}
+{'layer': (41,), 'score': '0.9622', 'iters': 156}
+{'layer': (42,), 'score': '0.9694', 'iters': 153}
+{'layer': (43,), 'score': '0.9638', 'iters': 158}
+{'layer': (44,), 'score': '0.9649', 'iters': 146}
+{'layer': (45,), 'score': '0.9616', 'iters': 142}
+{'layer': (46,), 'score': '0.9599', 'iters': 157}
+{'layer': (47,), 'score': '0.9644', 'iters': 145}
+{'layer': (48,), 'score': '0.9649', 'iters': 154}
+{'layer': (49,), 'score': '0.9694', 'iters': 152}
+{'layer': (50,), 'score': '0.9677', 'iters': 150}
+{'layer': (51,), 'score': '0.9610', 'iters': 141}
+{'layer': (52,), 'score': '0.9694', 'iters': 135}
+{'layer': (53,), 'score': '0.9677', 'iters': 144}
+{'layer': (54,), 'score': '0.9699', 'iters': 135}
+{'layer': (55,), 'score': '0.9644', 'iters': 143}
+{'layer': (56,), 'score': '0.9672', 'iters': 150}
+{'layer': (57,), 'score': '0.9677', 'iters': 140}
+{'layer': (58,), 'score': '0.9677', 'iters': 130}
+{'layer': (59,), 'score': '0.9633', 'iters': 139}
+{'layer': (60,), 'score': '0.9683', 'iters': 140}
+{'layer': (61,), 'score': '0.9655', 'iters': 134}
+{'layer': (62,), 'score': '0.9705', 'iters': 134}
+{'layer': (63,), 'score': '0.9605', 'iters': 132}
+{'layer': (5, 5), 'score': '0.9143', 'iters': 549}
+{'layer': (6, 6), 'score': '0.9015', 'iters': 710}
+{'layer': (7, 7), 'score': '0.8943', 'iters': 676}
+{'layer': (8, 8), 'score': '0.9260', 'iters': 442}
+{'layer': (9, 9), 'score': '0.9282', 'iters': 399}
+{'layer': (10, 10), 'score': '0.9455', 'iters': 289}
+{'layer': (11, 11), 'score': '0.9482', 'iters': 240}
+{'layer': (12, 12), 'score': '0.9455', 'iters': 258}
+{'layer': (13, 13), 'score': '0.9527', 'iters': 225}
+{'layer': (14, 14), 'score': '0.9471', 'iters': 196}
+{'layer': (15, 15), 'score': '0.9488', 'iters': 188}
+{'layer': (16, 16), 'score': '0.9610', 'iters': 177}
+{'layer': (17, 17), 'score': '0.9549', 'iters': 170}
+{'layer': (18, 18), 'score': '0.9460', 'iters': 156}
+{'layer': (19, 19), 'score': '0.9583', 'iters': 152}
+{'layer': (20, 20), 'score': '0.9533', 'iters': 164}
+{'layer': (21, 21), 'score': '0.9527', 'iters': 151}
+{'layer': (22, 22), 'score': '0.9538', 'iters': 143}
+{'layer': (23, 23), 'score': '0.9566', 'iters': 135}
+{'layer': (24, 24), 'score': '0.9622', 'iters': 136}
+{'layer': (25, 25), 'score': '0.9533', 'iters': 125}
+{'layer': (26, 26), 'score': '0.9583', 'iters': 129}
+{'layer': (27, 27), 'score': '0.9555', 'iters': 139}
+{'layer': (28, 28), 'score': '0.9610', 'iters': 128}
+{'layer': (29, 29), 'score': '0.9655', 'iters': 119}
+{'layer': (30, 30), 'score': '0.9599', 'iters': 126}
+{'layer': (31, 31), 'score': '0.9599', 'iters': 114}
+{'layer': (3, 3, 3), 'score': '0.7596', 'iters': 677}
+{'layer': (4, 4, 4), 'score': '0.8653', 'iters': 602}
+{'layer': (5, 5, 5), 'score': '0.8781', 'iters': 428}
+{'layer': (6, 6, 6), 'score': '0.8932', 'iters': 658}
+{'layer': (7, 7, 7), 'score': '0.9043', 'iters': 693}
+{'layer': (8, 8, 8), 'score': '0.9265', 'iters': 401}
+{'layer': (9, 9, 9), 'score': '0.9277', 'iters': 281}
+{'layer': (10, 10, 10), 'score': '0.9232', 'iters': 276}
+{'layer': (11, 11, 11), 'score': '0.9444', 'iters': 211}
+{'layer': (12, 12, 12), 'score': '0.9444', 'iters': 181}
+{'layer': (13, 13, 13), 'score': '0.9382', 'iters': 168}
+{'layer': (14, 14, 14), 'score': '0.9393', 'iters': 192}
+{'layer': (15, 15, 15), 'score': '0.9438', 'iters': 169}
+{'layer': (16, 16, 16), 'score': '0.9371', 'iters': 165}
+{'layer': (17, 17, 17), 'score': '0.9494', 'iters': 140}
+{'layer': (18, 18, 18), 'score': '0.9505', 'iters': 135}
+{'layer': (19, 19, 19), 'score': '0.9538', 'iters': 127}
+{'layer': (20, 20, 20), 'score': '0.9521', 'iters': 115}
+{'layer': (2, 2, 2, 2), 'score': '0.3105', 'iters': 472}
+{'layer': (3, 3, 3, 3), 'score': '0.7212', 'iters': 467}
+{'layer': (4, 4, 4, 4), 'score': '0.7713', 'iters': 383}
+{'layer': (5, 5, 5, 5), 'score': '0.8915', 'iters': 550}
+{'layer': (6, 6, 6, 6), 'score': '0.9054', 'iters': 542}
+{'layer': (7, 7, 7, 7), 'score': '0.9037', 'iters': 377}
+{'layer': (8, 8, 8, 8), 'score': '0.9154', 'iters': 403}
+{'layer': (9, 9, 9, 9), 'score': '0.9037', 'iters': 328}
+{'layer': (10, 10, 10, 10), 'score': '0.9271', 'iters': 277}
+{'layer': (11, 11, 11, 11), 'score': '0.9232', 'iters': 258}
+{'layer': (12, 12, 12, 12), 'score': '0.9388', 'iters': 196}
+{'layer': (13, 13, 13, 13), 'score': '0.9405', 'iters': 158}
+{'layer': (14, 14, 14, 14), 'score': '0.9482', 'iters': 195}
+{'layer': (15, 15, 15, 15), 'score': '0.9427', 'iters': 167}
+Best performers: {'layer': (29,), 'score': '0.9705', 'iters': 184}
+{'layer': (62,), 'score': '0.9705', 'iters': 134}
